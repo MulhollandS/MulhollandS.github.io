@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+ <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+	<link href="style.css" rel="stylesheet">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://www.spigot.com/wp-content/uploads/2018/02/Happy-New-Year-Images-2018-HD-5.jpg">The Journey</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="CSS.html">CSS</a>
+          <a class="dropdown-item" href=FirstSite.html>First Site</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://static1.squarespace.com/static/59eb7781bce17669583844b9/t/5a445038f9619a2bb2dfbc5c/1514426429807/one+does+not+explain+seo+in+a+single+paragraph+%281%29.png">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+	<a href="FirstSite.html">
+		<h2>Go Back</h2></a>
+<!-- Use GET, not POST -->
+
+<form method="GET">
+	First Name:<input type="text" name="firstname"><br>
+	Last Name:<input type="text" name="lastname"><br>
+	Email:<input type="email" name="email" required><br>
+	Password: <input type="Password" name="password" min="5"><br>
+	Birthday: <input type="date" name="Birthday"><br>
+	Gender: <br>
+	<input type="radio" name="gender" value="Martian">Martian<br>
+	<input type="radio" name="gender" value="Venusian">Venusian<br>
+	<input type="radio" name="gender" value="Other">Other<br>
+	Pets: <br>
+	<input type="checkbox" name="cat"> Cat<br>
+	<input type="checkbox" name="dog"> Dog<br>
+	<input type="checkbox" name="frog"> Frog<br>
+	<input type="checkbox" name="dragon"> Dragon<br>
+	Tea: <br>
+	<select name="Tea">
+		<option value="Jasmine"> Jasmine</option>
+		<option value="Earl Grey"> Earl Grey</option> 
+		<option value="English Breakfast"> English Breakfast</option>
+		<option value="Oolong">Oolong</option>
+	</select><br>
+	<input type="submit" value="Register">
+	<input type="reset">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
